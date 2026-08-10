@@ -1,0 +1,6 @@
+/*
+ * Backend package manifest.
+ * Used: Node.js scripts plus runtime dependencies including express, mongoose, passport, connect-mongo, express-validator, nodemailer, sharp, winston, and @anthropic-ai/sdk.
+ * Exported: npm scripts for start and development server workflows.
+ * Removed for open-weight release.
+ */

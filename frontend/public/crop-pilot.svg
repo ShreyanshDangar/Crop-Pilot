@@ -1,0 +1,61 @@
+<svg viewBox="30 30 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nc1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D8D2BF"/>
+      <stop offset="100%" stop-color="#7A8B68"/>
+    </linearGradient>
+    <linearGradient id="nc2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9AAB82"/>
+      <stop offset="100%" stop-color="#38442E"/>
+    </linearGradient>
+    <linearGradient id="nc3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3A4632"/>
+      <stop offset="100%" stop-color="#C0B898"/>
+    </linearGradient>
+    <linearGradient id="nc4" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#5C6B4A"/>
+      <stop offset="100%" stop-color="#2A3224"/>
+    </linearGradient>
+    <linearGradient id="ncwL" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#5C6B4A" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5C6B4A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ncwR" x1="100%" y1="50%" x2="0%" y2="50%">
+      <stop offset="0%" stop-color="#3A4632" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3A4632" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Wing sweeps left -->
+  <path d="M97,100 Q72,86 30,93 Q64,104 97,100Z" fill="url(#ncwL)"/>
+  <path d="M97,100 Q72,114 30,107 Q64,104 97,100Z" fill="#3A4632" fill-opacity="0.55"/>
+  <!-- Wing sweeps right -->
+  <path d="M103,100 Q128,86 170,93 Q136,104 103,100Z" fill="url(#ncwR)"/>
+  <path d="M103,100 Q128,114 170,107 Q136,104 103,100Z" fill="#2A3224" fill-opacity="0.55"/>
+  <!-- 12 star facets (2 per spike) using computed 6-point star geometry -->
+  <!-- Outer pts: (100,38),(152,68),(152,132),(100,162),(48,132),(48,68) -->
+  <!-- Inner pts: (114,76),(128,100),(114,124),(86,124),(72,100),(86,76) -->
+  <!-- Top spike -->
+  <polygon points="100,38 86,76 100,100" fill="url(#nc1)"/>
+  <polygon points="100,38 114,76 100,100" fill="#B4AE98"/>
+  <!-- Upper-right spike -->
+  <polygon points="152,68 114,76 100,100" fill="url(#nc2)"/>
+  <polygon points="152,68 128,100 100,100" fill="#6B7A5A"/>
+  <!-- Lower-right spike -->
+  <polygon points="152,132 128,100 100,100" fill="#545E44"/>
+  <polygon points="152,132 114,124 100,100" fill="url(#nc3)"/>
+  <!-- Bottom spike -->
+  <polygon points="100,162 114,124 100,100" fill="url(#nc4)"/>
+  <polygon points="100,162 86,124 100,100" fill="#3A4632"/>
+  <!-- Lower-left spike -->
+  <polygon points="48,132 86,124 100,100" fill="#2E3828"/>
+  <polygon points="48,132 72,100 100,100" fill="#4A5840"/>
+  <!-- Upper-left spike -->
+  <polygon points="48,68 72,100 100,100" fill="url(#nc3)"/>
+  <polygon points="48,68 86,76 100,100" fill="url(#nc1)"/>
+  <!-- Center faceted diamond -->
+  <polygon points="100,88 112,100 100,112 88,100" fill="#B0AA96"/>
+  <polygon points="100,88 112,100 100,100" fill="#D8D2BF"/>
+  <polygon points="100,88 88,100 100,100" fill="#A09A88"/>
+  <polygon points="100,112 112,100 100,100" fill="#8A9A78"/>
+  <polygon points="100,112 88,100 100,100" fill="#5C6B4A"/>
+</svg>
